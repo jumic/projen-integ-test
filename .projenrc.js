@@ -16,9 +16,9 @@ const project = new AwsCdkConstructLibrary({
   // description: undefined,          /* The description is just a string that helps people understand the purpose of the package. */
   devDeps: [
     'aws-cdk@1.134.0',
+    'ts-node',
   ], /* Build dependencies for this module. */
   // packageName: undefined,          /* The "name" in package.json. */
   // release: undefined,              /* Add release management to this project. */
-  bundledDeps: ['ts-node'],
 });
 project.synth();

@@ -94,12 +94,12 @@
       "type": "build"
     },
     {
-      "name": "typescript",
+      "name": "ts-node",
       "type": "build"
     },
     {
-      "name": "ts-node",
-      "type": "bundled"
+      "name": "typescript",
+      "type": "build"
     },
     {
       "name": "@aws-cdk/aws-s3",
