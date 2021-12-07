@@ -2,8 +2,6 @@
 !/.gitattributes
 !/.projen/tasks.json
 !/.projen/deps.json
-!/.github/workflows/pull-request-lint.yml
-!/.github/workflows/stale.yml
 !/package.json
 !/LICENSE
 !/.npmignore
@@ -34,10 +32,8 @@ jspm_packages/
 /test-reports/
 junit.xml
 /coverage/
-!/.github/workflows/build.yml
 /dist/changelog.md
 /dist/version.txt
-!/.github/workflows/release.yml
 !/.mergify.yml
 !/.github/pull_request_template.md
 !/test/
@@ -60,4 +56,3 @@ test/example.integ.snapshot/**/tree.json
 test/.tmp/example.integ/deploy.cdk.out
 test/.tmp/example.integ/synth.cdk.out
 !test/example.integ.snapshot
-!/.github/workflows/upgrade-main.yml

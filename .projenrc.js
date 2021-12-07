@@ -19,5 +19,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
   ], /* Build dependencies for this module. */
   // packageName: undefined,          /* The "name" in package.json. */
   // release: undefined,              /* Add release management to this project. */
+
+  githubOptions: {
+    workflows: false,
+  },
 });
 project.synth();
